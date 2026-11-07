@@ -1,5 +1,5 @@
 // Offline support: the app and answers are fetched fresh when online and served from cache when offline.
-const CACHE="tvib-v16";
+const CACHE="tvib-v17";
 const CORE=["./","index.html","answers.json","logo-art2.png","buddha-hd.jpg","icon-192.png","icon-512.png","manifest.webmanifest"];
 // fonts and the PDF libraries are fetched up front too, so everything (PDF included) works offline after the first visit
 const EXTRA=["https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@400;600;700;800&family=Noto+Sans+Sinhala:wght@400;600;700;800&display=swap",
